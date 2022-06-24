@@ -1,0 +1,151 @@
+@import url('https://fonts.goog leapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
+}
+.container{
+  margin: 0 auto;
+}
+body {
+  min-height: 1000px;
+}
+p{
+  font-weight: 300;
+  color: #111;
+}
+.banner{
+  position: relative;
+  background-image: url('../img/shashlik.jpg');
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner .content{
+  max-width: 900px;
+  text-align: center;
+}
+.banner .content h2{
+  font-size: 5em;
+  color: #fff;
+}
+.banner .content p{
+  font-size: 1em;
+  color: #fff;
+}
+.button{
+  font-style: 1em;
+  color: #fff;
+  background: #ff0157;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 5px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+  transition: 0.5s;
+}
+.button:hover{
+  cursor: pointer;
+  letter-spacing: 6px;
+  color: ;
+}
+header{
+  position:fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 40px 100px;
+  z-index: 100000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.5s;
+}
+
+header .logo{
+  color: #fff;
+  font-weight: 700;
+  font-style: 2em;
+  text-decoration: none;
+}
+header .logo span{
+  color: #ff0157;
+}
+header .navigation{
+  position: relative;
+  display: flex;
+}
+header .navigation li{
+  list-style: none;
+  margin-left: 30px;
+}
+header .navigation li a{
+  text-decoration: none;
+  color: #fff;
+  font-weight: 300;
+}
+
+/* MAIN */
+.img1{
+  width: 50%;
+}
+.img1>img{
+  margin-right: 0;
+  width: 100%;
+}
+.about{
+  background-image:url('../img/fonrasm.webp') ;
+  width: 50%;
+  padding-top: 50px;
+}
+.osh-info{
+  display:flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+}
+.osh{
+  text-align: center;
+  padding-bottom: 20px;
+}
+.info{
+
+  background-color: rgb(246, 244, 182);
+  letter-spacing: 1.5px;
+  margin: 45px auto;
+  border-radius: 5px;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  width:88%;
+}
+.info p{
+  font-weight: 200px;
+  padding-right: 5px;
+  color: #111;
+
+
+
+}
+.section{
+  padding: 100px;
+}
+.row{
+  position:relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.row .col50{
+  position: relative;
+  width: 48%;
+}
